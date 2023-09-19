@@ -44,6 +44,6 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    background: #c64d3d;
+    background: #da7669;
     transition: .5s;
 }

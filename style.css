@@ -12,9 +12,9 @@ body {
 }
 
 /* Navbar */
-#navbar {
+/*add navbar everywhere*/
+.navbar {
     margin: 0 0 80px 0;
-
 }
 
 nav {
@@ -23,6 +23,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
+
 }
 
 label.name {
@@ -58,7 +59,7 @@ nav a:hover {
     transition: .5s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     ul {
         position: fixed;
         width: 100%;
@@ -78,4 +79,25 @@ nav a:hover {
 #fotoNederland {
     float: left;
     margin: 7% 0 0 5%;
+}
+
+/* about me aboutMe-page*/
+#aboutMeAboutMeText {
+    margin: 12% 0 0 5%;
+    font-size: 30px;
+    width: 40%;
+    float: left;
+}
+
+/* hobby-page*/
+#hobbyText {
+    margin: 12% 0 0 5%;
+    font-size: 30px;
+    width: 40%;
+    float: left;
+}
+
+.videoGame {
+    text-decoration: none;
+    color: #da7669;
 }
